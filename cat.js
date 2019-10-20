@@ -6,6 +6,6 @@ function Cat(name, weight, age) {
 }
 
 jerry.prototype.eat = function(rice) {
-	this.stomach = [];
-	stomach.push(rice);
+	this.stomach.push(rice);
+	return this;
 };
