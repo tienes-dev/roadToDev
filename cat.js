@@ -9,3 +9,5 @@ jerry.prototype.eat = function(rice) {
 	this.stomach.push(rice);
 	return this;
 };
+
+module.exports = Cat;
