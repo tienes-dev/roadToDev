@@ -12,3 +12,6 @@ git diff: hiện ra sự thay đổi của những ở đang working directory (
 working directory: tức ra khu vực mà file mới đc chỉnh sửa, chưa đc add vào staging area
 staging area: là file đã đc add, nhưng chưa đc commit
 git repository: khu vực đã commit file xong.
+
+git checkout --tên file: bỏ nội dung mà file vừa mới thêm vào (đang ở modified)
+git reset: một file mới nếu add vào có thể reset để  trở về trạng thái trc đó (unstage)
