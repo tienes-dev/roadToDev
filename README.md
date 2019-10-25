@@ -13,5 +13,5 @@ working directory: tức ra khu vực mà file mới đc chỉnh sửa, chưa đ
 staging area: là file đã đc add, nhưng chưa đc commit
 git repository: khu vực đã commit file xong.
 
-git checkout --tên file: bỏ nội dung mà file vừa mới thêm vào (đang ở modified)
-git reset: một file mới nếu add vào có thể reset để  trở về trạng thái trc đó (unstage)
+git checkout --tên file: bỏ nội dung mà file vừa mới đc thêm vào (đang ở modified)
+git reset: một file mới nếu add vào có thể reset để  trở về trạng thái trc đó (từ staging xuống working directory)
