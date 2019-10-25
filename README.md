@@ -27,4 +27,8 @@ git merge: A <---B 		git checkout A (chọn nhánh chính, gộp nhánh phụ v�
 
 git branch -D branchName: Xóa nhánh	
 
-git --sort SHA1 ID(lấy ở giao diện gitk): 
+git --soft 'SHA1 ID của commit trc đó' (lấy ở giao diện gitk): để quay lại commit của sha1 trc đó. file sau khi soft xong sẽ ở trạng thái staging
+
+git --mixed 'SHA1 ID của commit trc đó': sẽ ở trạng thái working directory
+
+git --hard 'SHA1 ID của commit trc đó': xóa hẳn những commit ở trên và quay 				lại SHA1 ID đc truyền vào. 
