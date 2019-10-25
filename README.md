@@ -24,3 +24,7 @@ git checkout branchName: Chuyển sang branch đc chỉ định đó để làm 
 git merge: A <---B 		git checkout A (chọn nhánh chính, gộp nhánh phụ vào 						nhánh chính)
 	git checkout A
 	git merge B 		master <---feature/dog
+
+git branch -D branchName: Xóa nhánh	
+
+git --sort SHA1 ID(lấy ở giao diện gitk): 
