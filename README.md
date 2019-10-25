@@ -14,6 +14,13 @@ staging area: là file đã đc add, nhưng chưa đc commit
 git repository: khu vực đã commit file xong.
 
 git checkout --fileName: bỏ nội dung mà file vừa mới đc thêm vào (đang ở 							modified)
-git reset HEAD --fileName: một file mới nếu add vào có thể reset để  trở về trạng thái trc đó (từ staging xuống working directory)
+git reset HEAD --fileName: một file mới nếu add vào có thể reset để  trở về 					trạng thái trc đó (từ staging xuống working directory)
 
-git restore: Phục hồi lại trạng thái, từ staging xuống working directory kèm theo nội dung (gần giống như git reset HEAD ở trên)
+git restore: Phục hồi lại trạng thái, từ staging xuống working directory 				kèm theo nội dung (gần giống như git reset HEAD ở trên, khi đã 				commit r thì k thể restore)
+
+git checkout -b newBranch (branching): tiến hành tạo nhánh mới nếu, nhánh 				đó chưa tồn tại. node file cuối sẽ cùng trỏ vào 2 branch
+git checkout branchName: Chuyển sang branch đc chỉ định đó để làm việc. 
+
+git merge: A <---B 		git checkout A (chọn nhánh chính, gộp nhánh phụ vào 						nhánh chính)
+	git checkout A
+	git merge B 		master <---feature/dog
