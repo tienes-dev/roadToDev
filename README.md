@@ -20,3 +20,7 @@ git restore: Phục hồi lại trạng thái, từ staging xuống working dire
 
 git checkout -b newBranch (branching): tiến hành tạo nhánh mới nếu, nhánh 				đó chưa tồn tại. node file cuối sẽ cùng trỏ vào 2 branch
 git checkout branchName: Chuyển sang branch đc chỉ định đó để làm việc. 
+
+git merge: A <---B 		git checkout A (chọn nhánh chính, gộp nhánh phụ vào 						nhánh chính)
+	git checkout A
+	git merge B 		master <---feature/dog
