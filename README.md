@@ -36,3 +36,13 @@ git --hard 'SHA1 ID của commit trc đó': xóa hẳn những commit ở trên 
 git revert  'SHA1 ID của commit muốn commit lại': sẽ xóa tất cả các chỉnh sửa trc đó (green). Và sẽ tự tạo ra 1 node ở dạng working directory
 
 git ignore(làm lơ, bỏ qua): viết tên file vào trong để bỏ qua file đó (file 		đc viết)
+module chalk: đổi màu trong CLI
+
+(*) github ------(*)
+
+git remote add origin linkGithub: khởi tạo 1 repository để chưa project
+git remote -v: hiện ra các link github
+git push origin master: push file trong nhánh master đến repository đó
+
+
+

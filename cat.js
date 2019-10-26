@@ -1,13 +1,7 @@
 
-function Cat(name, weight, age) {
+function Cat(name) {
 	this.name = name;
-	this.weight = weight;
-	this.age = age;
+	this.stomach = [];
 }
-
-jerry.prototype.eat = function(rice) {
-	this.stomach.push(rice);
-	return this;
-};
 
 module.exports = Cat;
