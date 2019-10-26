@@ -31,4 +31,8 @@ git --soft 'SHA1 ID của commit trc đó' (lấy ở giao diện gitk): để q
 
 git --mixed 'SHA1 ID của commit trc đó': sẽ ở trạng thái working directory
 
-git --hard 'SHA1 ID của commit trc đó': xóa hẳn những commit ở trên và quay 				lại SHA1 ID đc truyền vào. 
+git --hard 'SHA1 ID của commit trc đó': xóa hẳn những commit ở trên và quay 				lại SHA1 ID đc truyền vào.
+
+git revert  'SHA1 ID của commit muốn commit lại': sẽ xóa tất cả các chỉnh sửa trc đó (green). Và sẽ tự tạo ra 1 node ở dạng working directory
+
+git ignore(làm lơ, bỏ qua): viết tên file vào trong để bỏ qua file đó (file 		đc viết)
